@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.home {
+    background-image: url(./Foto/pexels-iva-muškić-691710.jpg);
+    font-size: 20px;
+    color: #FFF6E9;
+    padding: 25px;
+}
+
+.about {
+    margin-top: 50px;
+    text-align: center;
+}
+.about h1 {
+    position: relative;
+    font-size: 24px;
+    text-shadow: 2px 2px 4px #5b5b5f;
+}
+
+.about h1::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px; 
+    height: 2px; 
+    background-color: #211C6A; 
+}
+
+.p_card {
+    padding: 35px;
+    font-size: 18px;
+}
+.gallery {
+    margin-top: 50px;
+    text-align: center;
+}
+.gallery h1 {
+    position: relative;
+    font-size: 24px;
+    margin-bottom: 35px;
+    text-shadow: 2px 2px 4px #5b5b5f;
+}
+
+.gallery h1::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px; 
+    height: 2px; 
+    background-color: #211C6A; 
+}
+
+.card {
+    display: inline-block;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 2px 2px 4px #211C6A;
+    margin-bottom: 25px;
+}
+
+.card img {
+    width: 220px;
+    height: 220px; 
+}
+
+.contact-container {
+    margin-top: 25px;
+    position: relative;
+    background-color: #211C6A;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-link {
+    text-decoration: none;
+    color: white;
+    padding-left: 25px;
+    text-align: center;
+    
+}
+
+.contact-link i {
+    margin-right: 10px;
+}
+
+.contact-link:hover {
+    color: #007bff;
+}
+footer {
+    position: relative;
+    bottom: 0;
+    background-color: #211C6A;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
